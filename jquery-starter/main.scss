@@ -1,0 +1,13 @@
+// Import du fichier variables.scss
+@import "variables";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}

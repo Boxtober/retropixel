@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Raleway-Italic-VariableFont_wght';
+    src: url(/media/Raleway-Italic-VariableFont_wght.ttf);
+  
+    font-family: 'Raleway-VariableFont_wght';
+    src: url(/media/Raleway-VariableFont_wght.ttf);
+  }
+  
+  @font-face {
+    font-family: 'PixelEmulator-xq08';
+    src: url(/media/PixelEmulator-xq08.ttf);
+  }
+  
+  * {
+  
+    padding: 0;
+    margin: 0; 
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box; }
+  
+  body {
+  
+    background: rgba(22, 16, 27, 0.918);
+    /* A retirer/modifier */ }
+  
+    
+  .affiche-container {
+    background: rgba(49, 21, 79, 0.26);
+    background: linear-gradient(40deg, rgba(49,21,79,1) 6%, rgba(71,31,115,1) 40%, rgba(231,51,138,1) 78%, rgba(254,253,254,1) 100%); /* A retirer/modifier */
+   
+    
+   
+    width: 100vh;
+    height: 100vh;
+    margin: auto; }
+  
+  .logo {
+  
+      color: white;
+      padding: 15px 25px 0px 25px;
+      font-size: 28px;
+      font-family: 'Familjen Grotesk', sans-serif;
+      font-weight: bolder;
+  }
+  
+  .musee {
+    border: 8px rgb(255, 255, 255);
+    border-style: double none none none;
+
+    width: 87px;
+  }
+
+  .de {
+    border-spacing: 15px;
+    border: 8px rgb(255, 255, 255);
+    border-style: double none none none;
+    width: 35px;
+
+    margin-right: 10px;
+  }
+
+  .impr {
+
+    border: 8px rgb(255, 255, 255);
+    border-style: solid none none none;
+    width: 157px;
+    
+    border-style: ;
+  }
+ 
+
+  .et {
+
+    border: 8px rgb(255, 255, 255);
+    border-style: double none none none;
+    width: 35px;
+
+    margin-right: 10px;
+
+  }
+
+  .la {
+
+    border: 8px rgb(255, 255, 255);
+    border-style: double none none none;
+    width: 26px;
+
+    margin-right: 10px;
+  }
+
+  .comm {
+    border: 8px rgb(255, 255, 255);
+    border-style: solid none none none;
+    width: 210px;
+  }
+
+  .graph {
+
+    border: 8px rgb(255, 255, 255);
+    border-style: solid none none none;
+    width: 137px;
+    }
+
+.p1 {
+
+    display: flex;
+    border-spacing: 5px;
+}
+
+.p2 {
+
+    display: flex;
+    border-spacing: 5px;
+}
